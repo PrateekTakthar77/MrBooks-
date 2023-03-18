@@ -22,3 +22,13 @@ section {
     --bggradient: linear-gradient(to bottom, #dd2476, #ff512f);
     --light-gray: rgba(255, 255, 255, 0.877);
 }
+
+.header a {
+    font-family: var(--Lobster);
+    font-size: 0.9em;
+    color: whitesmoke;
+}
+header{
+    background: #dd2476;
+    background: var(--bggradient);
+}
