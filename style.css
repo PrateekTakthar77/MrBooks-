@@ -29,6 +29,7 @@ header a{
     color: whitesmoke;
 }
 header{
+    /* background-color: ; */
     background: #dd2476;
     background: var(--bggradient);
 }
@@ -72,4 +73,24 @@ header .container .col-md-7 p{
 header .container .col-md-7 button{
     border-radius: 40px;
     font-weight: bold;
+}
+
+/*section1*/
+.section-1 {
+    padding: 20vmin 0;
+}
+.section-1 .row .col-md-6 .pray img{
+    width: 100%;
+    /* opacity: 0.8; */
+    border-radius: 0.2em;
+}
+.bg-body-tertiary{
+    background-color: transparent !important;
+}
+.section-1 .row .col-md-6 .panel{
+    position: absolute;
+    top: 7vmin;
+    left: -18vmin;
+    background: white;
+    border-radius: 3px;
 }
