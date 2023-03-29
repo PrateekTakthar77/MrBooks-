@@ -157,3 +157,58 @@ header .container .col-md-7 button {
     font-size: 2vmin;
     color: #e5e5e5;
 }
+
+.numbers .rectangle{
+    position: relative;
+    z-index: 1;
+    background: white;
+    width: 17rem;
+    height: 12rem;
+    padding-top: 3.5rem;
+    margin: 1rem;
+    border-radius: .5em;
+    box-shadow: 1px 2px 50px 0px rgba(255, 0, 0, 0.34);
+}
+.numbers{
+    margin-top: -15vmin;
+}
+.numbers .rectangle h1{
+    margin-top: -20px;
+    font-size: 5rem;
+    color: tomato;
+}
+.numbers .rectangle p{
+    font-family: var(--Patua);
+}
+.purchase > h1{
+    padding-top: 15vmin;
+    padding-bottom: 0.1em;
+    font-family: var(--Lobster);
+}
+.purchase > p{
+    color: var(--light-black);
+    font-size: 3vmin;
+    padding-bottom: 10vmin;
+}
+.purchase .cards .card{
+    width: 22rem;
+    margin: 3vmin;
+}
+.cards div{
+    padding: 0;
+    margin: 0;
+}
+.cards .title{
+    background: rgba(208, 241, 241, 0.1);
+    padding: 1.4rem 2.5rem;
+    font-size: 2vmin;
+}
+.card .card-text{
+    padding: 2.5rem 3rem;
+    color: var(--light-black);
+}
+.card-body .Pricing{
+    background: rgba(208, 241, 241, 0.1);
+    border-top-right-radius: 170px;
+    border-top-left-radius: 170px;
+}
