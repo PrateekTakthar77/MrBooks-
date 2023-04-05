@@ -290,3 +290,32 @@ header .container .col-md-7 button {
     border-radius: 340px;
     width: 60%;
 }
+
+/* footer */
+
+footer{
+    background: rgba(0, 0, 0, 0.8);
+    overflow-x: hidden;
+    padding: 18vmin 14vmin;
+}
+footer p>span{
+    color: #ff512f;
+}
+footer input{
+    border: none !important;
+}
+footer input::placeholder{
+    color: white !important;
+}
+footer .input-group .input-group-text{
+    background: var(--bggradient)!important;
+    border: none;
+}
+footer .column{
+    color: #dd2476;
+}
+
+/* this selector will select other than first's one*/
+footer .column i+i{
+    padding: 0.0.5em;
+}
