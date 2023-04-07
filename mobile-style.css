@@ -1,3 +1,20 @@
 @media only screen and (max-width: 768px){
-    
+    header .navbar-brand{
+        padding-left: 1rem;
+    }
+    .section-1 .row .col-md-6 .panel{
+        position: initial;
+        width: initial;
+        height: initial;
+    }
+    .section-2 .cover{
+        background-position: -25vmin -10vmin;
+    }
+    .numbers .rectangle{
+        width: 9rem;
+        height: 8rem;
+    }
+    .numbers .rectangle h1{
+        font-size: 2rem;
+    }
 }
